@@ -13,7 +13,7 @@ st.title("AI Chat + Data Visualization")
 st.caption("Streamlit dashboard for chat insights and analytics.")
 
 if "messages" not in st.session_state:
-    st.session_state.messages = [
+    st.session_state["messages"] = [
         {
             "role": "assistant",
             "text": "Welcome! Ask a question to generate AI insights from your data.",
