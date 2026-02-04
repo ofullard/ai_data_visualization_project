@@ -1,5 +1,6 @@
 streamlit==1.31.1
 pandas==2.2.1
 numpy==1.26.4
+openai==1.60.0
 pillow>=12.1.0
 matplotlib==3.8.0
